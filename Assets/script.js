@@ -1,5 +1,5 @@
 var mainEl = document.querySelector(`.container-lg`);
-var currentHour = dayjs().format(`HH`); //capturing current hour
+var currentHour = parseInt(dayjs().format(`HH`)); //capturing current hour
 var divArr = mainEl.querySelectorAll(`div`); //array the captures all the divs
 
 // display the current date in the header of the page.
